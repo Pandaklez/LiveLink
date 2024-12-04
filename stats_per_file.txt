@@ -1,0 +1,264 @@
+Run 'pip install torchvision==0.18' to fix torchvision or 'pip install -U torch torchvision' to update both.
+For a full compatibility table see https://github.com/pytorch/vision#installation
+YOLOv8s-seg summary: 261 layers, 11,790,483 parameters, 0 gradients, 42.7 GFLOPs
+(261, 11790483, 0, 42.690713599999995)
+ERROR: Could not find a version that satisfies the requirement mediapipe==0.8.6.1 (from versions: 0.10.0, 0.10.1, 0.10.2, 0.10.3, 0.10.5, 0.10.7, 0.10.8, 0.10.9, 0.10.10, 0.10.11, 0.10.13, 0.10.14, 0.10.15, 0.10.18)
+ERROR: No matching distribution found for mediapipe==0.8.6.1
+Video name: static_ROOF_fingers_contact_at_45_degrees_neutral_location_001_1_pmil
+Total occluded 0 frames out of 354
+Video name: varg_001_1_pmil
+Total occluded 81 frames out of 824
+Video name: bi_005_5_pmil
+Total occluded 0 frames out of 387
+Video name: fran_001_1_pmil
+Total occluded 8 frames out of 1200
+Video name: parti-vill-kalla-grupp-for-terrorister-1-det_001_1_pmil
+Total occluded 0 frames out of 583
+Video name: parti-vill-kalla-grupp-for-terrorister-4-nu_002_2_pmil
+Total occluded 0 frames out of 169
+Video name: katt_001_1_pmil
+Total occluded 0 frames out of 1046
+Video name: bok_002_2_pmil
+Total occluded 20 frames out of 1121
+Video name: varg_003_3_pmil
+Total occluded 124 frames out of 1065
+Video name: parti-vill-kalla-grupp-for-terrorister-1-det_003_3_pmil
+Total occluded 63 frames out of 778
+Video name: djur_001_1_pmil
+Total occluded 1 frames out of 1319
+Video name: abborre_002_2_pmil
+Total occluded 2 frames out of 1169
+Video name: parti-vill-kalla-grupp-for-terrorister-5-bosattarna_003_3_pmil
+Total occluded 2 frames out of 636
+Video name: parti-vill-kalla-grupp-for-terrorister-7-det_001_1_pmil
+Total occluded 16 frames out of 521
+Video name: hundvalp_001_1_pmil
+Total occluded 0 frames out of 479
+Video name: left_hand_on_top_of_the_battery_neutral_location_001_1_pmil
+Total occluded 2 frames out of 381
+Video name: parti-vill-kalla-grupp-for-terrorister-5-bosattarna_001_1_pmil
+Total occluded 17 frames out of 1295
+Video name: touch_chin_with_index_finger_side_of_the_chin_far_from_active_hand_active_hand_001_1_pmil
+Total occluded 0 frames out of 519
+Video name: ogon_cheeks_active_hand_in_each_place_001_1_pmil
+Total occluded 9 frames out of 531
+Video name: mussla_002_2_pmil
+Total occluded 83 frames out of 1358
+Video name: right_hand_above_belly_button_001_1_pmil
+Total occluded 0 frames out of 480
+Video name: static_ROOF_fingers_contact_at_45_degrees_left_top_location_001_1_pmil
+Total occluded 13 frames out of 456
+Video name: skara_001_1_pmil
+Total occluded 0 frames out of 937
+Video name: minister-flydde-fran-tomater-story_001_1_pmil
+Total occluded 100 frames out of 437
+Video name: hundvalp_003_3_pmil
+Total occluded 11 frames out of 2060
+Video name: static_closed_book_left_bottom_location_001_1_pmil
+Total occluded 7 frames out of 359
+Video name: stada_001_1_pmil
+Total occluded 0 frames out of 838
+Video name: tro_001_1_pmil
+Total occluded 16 frames out of 955
+Video name: ensam_002_2_pmil
+Total occluded 1 frames out of 951
+Video name: baver_002_2_pmil
+Total occluded 0 frames out of 153
+Video name: parti-vill-kalla-grupp-for-terrorister-2-men_002_2_pmil
+Total occluded 9 frames out of 205
+Video name: static_closed_book_right_top_location_001_1_pmil
+Total occluded 0 frames out of 376
+Video name: till_001_1_pmil
+Total occluded 13 frames out of 937
+Video name: sko_001_1_pmil
+Total occluded 5 frames out of 867
+Video name: right_hand_on_top_of_the_battery_neutral_location_001_1_pmil
+Total occluded 0 frames out of 338
+Video name: halsband_002_2_pmil
+Total occluded 25 frames out of 2118
+Video name: groda_002_2_pmil
+Total occluded 55 frames out of 1136
+Video name: kalkon_002_2_pmil
+Total occluded 29 frames out of 983
+Video name: static_ROOF_fingers_contact_at_45_degrees_right_top_location_001_1_pmil
+Total occluded 0 frames out of 344
+Video name: tip_of_the_nose_touch_and_hold_active_hand_001_1_pmil
+Total occluded 336 frames out of 562
+Video name: min_001_1_pmil
+Total occluded 14 frames out of 936
+Video name: touch_chin_with_index_finger_middle_of_the_chin_active_hand_001_1_pmil
+Total occluded 5 frames out of 442
+Video name: nytt-forslag-om-invandrare-1-regeringen_002_2_pmil
+Total occluded 0 frames out of 656
+Video name: bi_002_2_pmil
+Total occluded 33 frames out of 720
+Video name: nytt-forslag-om-invandrare-3-nu_001_1_pmil
+Total occluded 21 frames out of 504
+Video name: forehead-to-chin_NOT_UNDERSTAND_R_chin_forehead_active_hand_in_each_place_001_1_pmil
+Total occluded 17 frames out of 524
+Video name: glad_002_2_pmil
+Total occluded 35 frames out of 974
+Video name: kobra_002_2_pmil
+Total occluded 28 frames out of 1282
+Video name: static_JOBBA_left_bottom_location_001_1_pmil
+Total occluded 1 frames out of 410
+Video name: parti-vill-kalla-grupp-for-terrorister-6-partiet_001_1_pmil
+Total occluded 6 frames out of 563
+Video name: fjaril_001_1_pmil
+Total occluded 43 frames out of 938
+Video name: hackspett_002_2_pmil
+Total occluded 11 frames out of 942
+Video name: parti-vill-kalla-grupp-for-terrorister-3-en_001_1_pmil
+Total occluded 51 frames out of 747
+Video name: nytt-forslag-om-invandrare-4-politikerna_001_1_pmil
+Total occluded 27 frames out of 438
+Video name: matt_001_1_pmil
+Total occluded 52 frames out of 1057
+Video name: static_closed_book_left_top_location_001_1_pmil
+Total occluded 4 frames out of 311
+Video name: fasting_001_1_pmil
+Total occluded 15 frames out of 1191
+Video name: static_JOBBA_neutral_location_001_1_pmil
+Total occluded 2 frames out of 328
+Video name: face-calib_002_2_pmil
+Total occluded 0 frames out of 1557
+Video name: static_ROOF_fingers_contact_at_45_degrees_in_front_of_the_face_location_001_1_pmil
+Total occluded 6 frames out of 59
+Video name: static_JOBBA_left_top_location_001_1_pmil
+Total occluded 0 frames out of 344
+Video name: parti-vill-kalla-grupp-for-terrorister-5-bosattarna_004_4_pmil
+Total occluded 0 frames out of 1058
+Video name: t-pose_001_1_pmil
+Total occluded 0 frames out of 651
+Video name: ensam_001_1_pmil
+Total occluded 5 frames out of 827
+Video name: right_hand_resting_on_the_chest_chest_001_1_pmil
+Total occluded 0 frames out of 454
+Video name: fagel_001_1_pmil
+Total occluded 150 frames out of 1078
+Video name: hand_alphabet_001_1_pmil
+Total occluded 0 frames out of 2016
+Video name: varg_002_2_pmil
+Total occluded 101 frames out of 1051
+Video name: parti-vill-kalla-grupp-for-terrorister-2-men_001_1_pmil
+Total occluded 8 frames out of 726
+Video name: baver_001_1_pmil
+Total occluded 3 frames out of 1209
+Video name: groda_003_3_pmil
+Total occluded 36 frames out of 366
+Video name: static_JOBBA_right_bottom_location_001_1_pmil
+Total occluded 0 frames out of 340
+Video name: left_hand_resting_on_the_chest_chest_001_1_pmil
+Total occluded 0 frames out of 442
+Video name: bi_003_3_pmil
+Total occluded 65 frames out of 1228
+Video name: apa_001_1_pmil
+Total occluded 18 frames out of 1876
+Video name: anka_001_1_pmil
+Total occluded 5 frames out of 1078
+Video name: static_JOBBA_right_top_location_001_1_pmil
+Total occluded 0 frames out of 451
+Video name: parti-vill-kalla-grupp-for-terrorister-2-men_003_3_pmil
+Total occluded 15 frames out of 662
+Video name: baver_003_3_pmil
+Total occluded 27 frames out of 1770
+Video name: halsband_001_1_pmil
+Total occluded 7 frames out of 930
+Video name: groda_001_1_pmil
+Total occluded 143 frames out of 2096
+Video name: kalkon_001_1_pmil
+Total occluded 16 frames out of 426
+Video name: bi_001_1_pmil
+Total occluded 0 frames out of 231
+Video name: nytt-forslag-om-invandrare-1-regeringen_001_1_pmil
+Total occluded 0 frames out of 367
+Video name: static_ROOF_fingers_contact_at_45_degrees_right_bottom_location_001_1_pmil
+Total occluded 0 frames out of 350
+Video name: bock_001_1_pmil
+Total occluded 36 frames out of 1093
+Video name: kobra_001_1_pmil
+Total occluded 159 frames out of 1185
+Video name: static_JOBBA_in_front_of_the_face_location_001_1_pmil
+Total occluded 39 frames out of 300
+Video name: antilop_001_1_pmil
+Total occluded 105 frames out of 1289
+Video name: glad_001_1_pmil
+Total occluded 17 frames out of 732
+Video name: hackspett_001_1_pmil
+Total occluded 38 frames out of 768
+Video name: static_closed_book_left_top_location_002_2_pmil
+Total occluded 0 frames out of 366
+Video name: touch_side_of_the_forehead_on_active_hand_side_active_hand_001_1_pmil
+Total occluded 6 frames out of 540
+Video name: nytt-forslag-om-invandrare-2-de_001_1_pmil
+Total occluded 15 frames out of 521
+Video name: tack_001_1_pmil
+Total occluded 0 frames out of 1018
+Video name: krama_001_1_pmil
+Total occluded 5 frames out of 1357
+Video name: face-calib_001_1_pmil
+Total occluded 0 frames out of 2488
+Video name: a-pose_001_1_pmil
+Total occluded 0 frames out of 681
+Video name: parti-vill-kalla-grupp-for-terrorister-2-men_004_4_pmil
+Total occluded 13 frames out of 592
+Video name: kontor_001_1_pmil
+Total occluded 2 frames out of 1067
+Video name: nytt-forslag-om-invandrare-5-en_001_1_pmil
+Total occluded 73 frames out of 533
+Video name: parti-vill-kalla-grupp-for-terrorister-1-det_002_2_pmil
+Total occluded 30 frames out of 151
+Video name: parti-vill-kalla-grupp-for-terrorister-4-nu_001_1_pmil
+Total occluded 14 frames out of 732
+Video name: static_closed_book_right_bottom_location_001_1_pmil
+Total occluded 0 frames out of 338
+Video name: bok_001_1_pmil
+Total occluded 0 frames out of 1027
+Video name: static_ROOF_fingers_contact_at_45_degrees_left_bottom_location_001_1_pmil
+Total occluded 0 frames out of 359
+Video name: bi_004_4_pmil
+Total occluded 37 frames out of 1505
+Video name: parti-vill-kalla-grupp-for-terrorister-4-nu_003_3_pmil
+Total occluded 60 frames out of 665
+Video name: abborre_001_1_pmil
+Total occluded 10 frames out of 1282
+Video name: touch_chin_with_index_finger_side_of_the_chin_close_to_active_hand_active_hand_001_1_pmil
+Total occluded 0 frames out of 452
+Video name: en-1_001_1_pmil
+Total occluded 5 frames out of 1075
+Video name: skola_001_1_pmil
+Total occluded 14 frames out of 956
+Video name: chinchilla_001_1_pmil
+Total occluded 16 frames out of 1148
+Video name: static_closed_book_neutral_location_001_1_pmil
+Total occluded 0 frames out of 404
+Video name: touch_side_of_the_cheek_with_a_palm_on_active_hand_side_active_hand_001_1_pmil
+Total occluded 1 frames out of 539
+Video name: hundvalp_002_2_pmil
+Total occluded 69 frames out of 1473
+Video name: parti-vill-kalla-grupp-for-terrorister-5-bosattarna_002_2_pmil
+Total occluded 0 frames out of 132
+Video name: left_hand_above_belly_button_001_1_pmil
+Total occluded 0 frames out of 442
+Video name: static_closed_book_in_front_of_the_face_location_001_1_pmil
+No frames detected
+Video name: giftorm_001_1_pmil
+Total occluded 96 frames out of 1179
+Video name: right_hand_above_belly_button_002_2_pmil
+Total occluded 0 frames out of 447
+Video name: mussla_001_1_pmil
+Total occluded 77 frames out of 897
+Video name: dalig_001_1_pmil
+Total occluded 6 frames out of 987
+Video name: BOOK_neutral_location_repetitive_001_1_pmil
+Total occluded 0 frames out of 491
+Video name: minister-flydde-fran-tomater-story_002_2_pmil
+Total occluded 33 frames out of 2112
+
+==========
+
+Average length of occlusions: 2.92 frames
+Standard deviation of occlusion lengths: 12.05 frames
+Average number of occluded frames per video: 24.15 frames
+Average percentage of occluded frames per video: 3.17%
+Total number of occluded frames: 2994 out of total for the dataset 101156 
