@@ -150,4 +150,3 @@ Gapfill_LSTM.py
 .DS_Store
 runs
 predicted_blendshapes
-smoothing.ipynb
