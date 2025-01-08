@@ -78,7 +78,7 @@ def interpolate_one_fcurve(fcurve):
                 
         # TODO: check that keyframes are being removed based on ther float value, not index in the list
         if frame_start >= 0 and frame_end < len_file:
-            print("left_kf.co[0], right_kf.co[10]: ", left_kf.co[0], right_kf.co[0])
+            print("left_kf.co[0], right_kf.co[0]: ", left_kf.co[0], right_kf.co[0])
             print("left_kf.co[1], right_kf.co[1]: ", left_kf.co[1], right_kf.co[1])
             print("frame_start, frame_end", frame_start, frame_end)
             # Remove existing keyframes within the range
@@ -124,6 +124,39 @@ def interpolate_one_fcurve(fcurve):
     return fcurve
 
 
+def export_animated_object(output_path, object_name="FKControlRig"):
+    """Export a single object with modified animation curves to FBX."""
+    # Deselect all objects
+    bpy.ops.object.select_all(action='DESELECT')
+    
+    # Select only the target object
+    obj = bpy.data.objects.get(object_name)
+    if obj is None:
+        print(f"Object '{object_name}' not found!")
+        return
+    obj.select_set(True)
+    
+    # Ensure the object has an animation
+    if not obj.animation_data or not obj.animation_data.action:
+        print(f"Object '{object_name}' has no animation data!")
+        return
+
+    # Export the object with optimized settings
+    bpy.ops.export_scene.fbx(
+        filepath=output_path,
+        use_selection=True,          # Export only the selected object
+        apply_unit_scale=True,       # Apply unit scale
+        apply_scale_options='FBX_SCALE_NONE',  # Avoid scaling issues
+        bake_anim=True,              # Export baked animations
+        bake_anim_use_all_bones=False,  # Exclude unnecessary bones
+        bake_anim_use_all_actions=False, # Exclude actions not linked to the object
+        add_leaf_bones=False,        # Disable leaf bones
+        use_armature_deform_only=True,  # Include only deforming bones if using armature
+        use_mesh_modifiers=False,    # Skip mesh modifiers to speed up
+    )
+    print(f"Exported '{object_name}' to '{output_path}'.")
+
+
 def interpolate_fbx(interpolation_ranges, file_path, output_path):
     # Import the .fbx file
     bpy.ops.import_scene.fbx(filepath=file_path, use_anim=True)
@@ -140,19 +173,19 @@ def interpolate_fbx(interpolation_ranges, file_path, output_path):
     
     # 9 curves per each action (3 for position, 3 for rotation, 3 for scale)
     for action in bpy.data.actions:
-        if action.name.startswith("CTRL_"):
-            if not has_animation(action):
-                print(f"Skipping action '{action.name}': No animation data.")
-                continue
-            print(f"Processing action '{action.name}'")
-            for fcurve in action.fcurves:
-                # interpolate keyframe points for a frame and update it
-                # TODO: fill in with a function and delete the tail of this one
-                fcurve = interpolate_one_fcurve(fcurve)
-                break # do one test curve
-            break
-                # Update the fcurve after modifying keyframes
-                # fcurve.update()
+        #if action.name.startswith("FACIAL_") or action.name.startswith("CTRL_"):
+        if not has_animation(action):
+            print(f"Skipping action '{action.name}': No animation data.")
+            continue
+        print(f"Processing action '{action.name}'")
+        for fcurve in action.fcurves:
+            # interpolate keyframe points for a frame and update it
+            # TODO: fill in with a function and delete the tail of this one
+            fcurve = interpolate_one_fcurve(fcurve)
+            break # do one test curve
+        break
+            # Update the fcurve after modifying keyframes
+            # fcurve.update()
     
     # if frame_rate != 60:
     # scale_animation_frame_rate(original_fps=60, desired_fps=frame_rate)
@@ -160,7 +193,8 @@ def interpolate_fbx(interpolation_ranges, file_path, output_path):
     print("Processing finished")
     
     # Export the modified .fbx
-    bpy.ops.export_scene.fbx(filepath=output_path)
+    export_animated_object(output_path, object_name="FKControlRig")
+    #bpy.ops.export_scene.fbx(filepath=output_path)
     print(f"Interpolated animation saved to: {output_path}")
 
 
@@ -192,6 +226,6 @@ if __name__ == "__main__":
     
     interpolate_fbx(
         interpolation_ranges,
-        file_path="/Users/annkle/Documents/Development/KTH/Joel-recording-2/baked-to-FKcontrolrig-Jesse-varg-002-2.fbx",    # baked-to-MHcontrolrig-Performance-Taro-varg-002-2.fbx",
-        output_path="/Users/annkle/Documents/Development/KTH/Joel-recording-2/baked-to-FKcontrolrig-Jesse-varg-002-2_linear_interpolated.fbx"
+        file_path="/Users/annkle/Documents/Development/KTH/Joel-recording-2/baked-to-FKcontrolrig-Jesse-varg-002-2-export-FKControlRig-anim.fbx",    # baked-to-MHcontrolrig-Performance-Taro-varg-002-2.fbx",
+        output_path="/Users/annkle/Documents/Development/KTH/Joel-recording-2/baked-to-FKcontrolrig-Jesse-varg-002-2-export-FKControlRig-anim_linear_interpolated.fbx"
     )
