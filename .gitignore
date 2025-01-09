@@ -127,8 +127,8 @@
 20241101_varg_002_2
 20241101_varg_003_3
 images
-pymo
 PyMO-git
+pymo/__pycache__
 *.npy
 *.mp4
 *.html

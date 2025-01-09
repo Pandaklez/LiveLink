@@ -37,12 +37,12 @@ def add_frame_to_bvh(original_bvh_path, output_bvh_path, new_frame):
 
 
 # Extract the retargeting frame from a source BVH
-source_bvh = "t-pose_001_Skeleton.bvh"
+source_bvh = "a-pose_001_Skeleton.bvh"
 frame_data, motion_data = extract_retargeting_frame(source_bvh)
 
-# Prepend the frame to another BVH file
+# Prepend
 target_bvh = "varg_002_Skeleton.bvh"
-output_bvh = "varg_002_Skeleton_with_tpose.bvh"
+output_bvh = "varg_002_Skeleton_with_apose.bvh"
 add_frame_to_bvh(target_bvh, output_bvh, frame_data)
 
 print("Updated BVH saved to:", output_bvh)
